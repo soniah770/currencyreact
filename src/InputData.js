@@ -5,31 +5,31 @@ import React from 'react';
 const InputData = ({
   value,
   setValue,
-  currency,
-  setCurrency,
+  cur,
+  setCur,
   setFrontConversion,
   conversionValue,
   options,
-  
+
 }) => {
-  
+
   return (
     <wrapper>
 
 
-  <div>
-  <select  style={{color:'#faf8f9'}} value={currency} onChange={(e) => setCurrency(e.target.value)}>
-        {options.map((option, index) => {
-          return <option key={index}>{option}</option>;
-        })}
-      </select>
+      <div>
+        <select style={{ color: '#faf8f9' }} value={cur} onChange={(e) => setCur(e.target.value)}>
+          {options.map((option, index) => {
+            return <option key={index}>{option}</option>;
+          })}
+        </select>
       </div>
- <br/>
+      <br />
       {/* input */}
       <div >
-        <input style={{color:'#faf8f9'}}
+        <input style={{ color: '#faf8f9' }}
           type="number"
-          className="form-input"
+          className="form"
           value={value}
           onChange={(e) => {
             setValue(e.target.value);
@@ -38,7 +38,7 @@ const InputData = ({
         />
       </div>
 
-    
+
     </wrapper>
   );
 };

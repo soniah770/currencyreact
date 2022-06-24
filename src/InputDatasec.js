@@ -12,11 +12,9 @@ const InputDatasec = ({
   options,
   
 }) => {
-  // jsx
   return (
     <wrapper>
 
-  {/* select-box */}
   <div >
   <select  style={{color:'#eb5f57'}} value={cur} onChange={(e) => setCur(e.target.value)}>
         {options.map((option, index) => {
