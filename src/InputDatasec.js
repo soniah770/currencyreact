@@ -8,7 +8,7 @@ const InputDatasec = ({
   currency,
   setCurrency,
   setConversion,
-  converValue,
+  conversionValue,
   options,
   
 }) => {
@@ -32,7 +32,7 @@ const InputDatasec = ({
           value={value}
           onChange={(e) => {
             setValue(e.target.value);
-            setConversion(converValue);
+            setConversion(conversionValue);
           }}
         />
       </div>
