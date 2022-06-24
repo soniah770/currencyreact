@@ -13,7 +13,7 @@ const InputDatasec = ({
   
 }) => {
   return (
-    <wrapper>
+    <>
 
   <div >
   <select  style={{color:'#eb5f57'}} value={cur} onChange={(e) => setCur(e.target.value)}>
@@ -38,7 +38,7 @@ const InputDatasec = ({
       </div>
 
     
-    </wrapper>
+      </>
   );
 };
 

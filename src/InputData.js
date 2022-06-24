@@ -14,9 +14,8 @@ const InputData = ({
 }) => {
 
   return (
-    <wrapper>
 
-
+   <>
       <div>
         <select style={{ color: '#faf8f9' }} value={cur} onChange={(e) => setCur(e.target.value)}>
           {options.map((option, index) => {
@@ -38,8 +37,7 @@ const InputData = ({
         />
       </div>
 
-
-    </wrapper>
+      </> 
   );
 };
 

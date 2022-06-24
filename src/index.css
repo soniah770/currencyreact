@@ -63,14 +63,6 @@ STYLES
   margin-bottom: 30px;
 }
 
-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  
-  
-}
 
 .form {
   width: auto;
