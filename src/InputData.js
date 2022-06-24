@@ -5,8 +5,8 @@ import React from 'react';
 const InputData = ({
   value,
   setValue,
-  cur,
-  setCur,
+  currency,
+  setCurrecncy,
   setFrontConversion,
   conversionValue,
   options,
@@ -17,7 +17,7 @@ const InputData = ({
 
    <>
       <div>
-        <select style={{ color: '#faf8f9' }} value={cur} onChange={(e) => setCur(e.target.value)}>
+        <select style={{ color: '#faf8f9' }} value={currency} onChange={(e) => setCurrecncy(e.target.value)}>
           {options.map((option, index) => {
             return <option key={index}>{option}</option>;
           })}

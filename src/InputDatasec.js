@@ -5,9 +5,9 @@ import React from 'react';
 const InputDatasec = ({
   value,
   setValue,
-  cur,
-  setCur,
-  setConver,
+  currency,
+  setCurrency,
+  setConversion,
   converValue,
   options,
   
@@ -16,7 +16,7 @@ const InputDatasec = ({
     <>
 
   <div >
-  <select  style={{color:'#eb5f57'}} value={cur} onChange={(e) => setCur(e.target.value)}>
+  <select  style={{color:'#eb5f57'}} value={currency} onChange={(e) => setCurrency(e.target.value)}>
         {options.map((option, index) => {
           return <option key={index}>{option}</option>;
         })}
@@ -32,7 +32,7 @@ const InputDatasec = ({
           value={value}
           onChange={(e) => {
             setValue(e.target.value);
-            setConver(converValue);
+            setConversion(converValue);
           }}
         />
       </div>
