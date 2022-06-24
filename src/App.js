@@ -43,7 +43,7 @@ function App() {
     <main>
       <header>
         <div className="container">
-          <InputField
+          <InputData
              
             value={firstValue}
             setValue={setFirstValue}
@@ -64,7 +64,7 @@ function App() {
           <br/><br/>
         
            <div style={{color:'blue'}}>
-          <InputFieldsec
+          <InputDatasec
          
           
             value={secondValue}
