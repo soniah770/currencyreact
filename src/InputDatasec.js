@@ -2,13 +2,13 @@ import React from 'react';
 
 
 
-const InputFieldsec = ({
+const InputDatasec = ({
   value,
   setValue,
-  currency,
-  setCurrency,
-  setFrontConversion,
-  conversionValue,
+  cur,
+  setCur,
+  setConver,
+  converValue,
   options,
   
 }) => {
@@ -18,7 +18,7 @@ const InputFieldsec = ({
 
   {/* select-box */}
   <div >
-  <select  style={{color:'#eb5f57'}} value={currency} onChange={(e) => setCurrency(e.target.value)}>
+  <select  style={{color:'#eb5f57'}} value={cur} onChange={(e) => setCur(e.target.value)}>
         {options.map((option, index) => {
           return <option key={index}>{option}</option>;
         })}
@@ -30,11 +30,11 @@ const InputFieldsec = ({
        <input
        style={{color:'#eb5f57'}}
           type="number"
-          className="form-input"
+          className="form"
           value={value}
           onChange={(e) => {
             setValue(e.target.value);
-            setFrontConversion(conversionValue);
+            setConver(converValue);
           }}
         />
       </div>
@@ -44,4 +44,4 @@ const InputFieldsec = ({
   );
 };
 
-export default InputFieldsec;
+export default InputDatasec;

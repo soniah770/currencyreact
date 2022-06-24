@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const InputField = ({
+const InputData = ({
   value,
   setValue,
   currency,
@@ -12,11 +12,11 @@ const InputField = ({
   options,
   
 }) => {
-  // jsx
+  
   return (
     <wrapper>
 
-  {/* select-box */}
+
   <div>
   <select  style={{color:'#faf8f9'}} value={currency} onChange={(e) => setCurrency(e.target.value)}>
         {options.map((option, index) => {
@@ -43,4 +43,4 @@ const InputField = ({
   );
 };
 
-export default InputField;
+export default InputData;

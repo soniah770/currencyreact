@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import InputField from './InputField';
+import InputData from './InputData';
 import Footer from './Footer';
-import InputFieldsec from './InputFieldsec';
+import InputDatasec from './InputDatasec';
 const url = `https://v6.exchangerate-api.com/v6/6cbbba97b763887effc4b36c/latest/NOK`;
 
 function App() {

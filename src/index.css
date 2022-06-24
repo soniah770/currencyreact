@@ -72,7 +72,7 @@ wrapper {
   
 }
 
-.form-input {
+.form {
   width: auto;
   max-width: 10rem;
   border: none;
@@ -124,27 +124,28 @@ footer .icon .fa:hover {
 }
 
 footer .link {
+  margin-right: 1rem;
   color: #00a7e7;
   transition: 0.3s all linear;
   font-weight: bold;
   text-transform: uppercase;
   border-right: 3px solid #fff;
   padding-right: 0.5rem;
-  margin-right: 1rem;
+ 
 }
-footer .icon {
-  font-size: 1.5rem;
-  vertical-align: middle;
-  transition: 0.3s all linear;
+footer .ic {
   line-height: 1;
+  font-size: 1.5rem;
+  transition: 0.3s all linear;
+  vertical-align: middle;
 }
 
-#twitter {
+#tw {
   color: #00a7e7;
 }
-#instagram {
+#insta
   color: #ffffff;
 }
-#linkedin {
+#linkdin {
   color: #0073b1;
 }

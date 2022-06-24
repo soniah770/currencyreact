@@ -15,29 +15,29 @@ const Footer = () => {
         SoniaLearn
       </a>
       <a
-        href="/"
+      
         target="_blank"
         rel="noreferrer"
-        className="icon"
-        id="twitter"
+        className="ic"
+        id="tw"
       >
         <FaTwitter className="fa" />
       </a>{' '}
       <a
-        href="/"
+        
         target="_blank"
         rel="noreferrer"
-        className="icon"
-        id="instagram"
+        className="ic"
+        id="insta"
       >
         <FaInstagram className="fa" />
       </a>{' '}
       <a
-        href="/"
+     
         target="_blank"
         rel="noreferrer"
-        className="icon"
-        id="linkedin"
+        className="ic"
+        id="linkdin"
       >
         <FaLinkedin className="fa" />
       </a>
